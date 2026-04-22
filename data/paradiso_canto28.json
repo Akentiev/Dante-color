@@ -1,0 +1,328 @@
+{
+  "part": "Paradiso",
+  "canto": 28,
+  "tercets": [
+    {
+      "canto_number": 28,
+      "tercet_number": 1,
+      "color_hex": "#68B888",
+      "text_ru": "Когда, скорбя о жизни современной\nНесчастных смертных, правду вскрыла мне\nТа, что мой дух возносит в рай блаженный, -",
+      "text_it": "Poscia che 'ncontro a la vita presente\nd'i miseri mortali aperse 'l vero\nquella che 'mparadisa la mia mente,"
+    },
+    {
+      "canto_number": 28,
+      "tercet_number": 2,
+      "color_hex": "#70C090",
+      "text_ru": "То как, узрев в зеркальной глубине\nОгонь свечи, зажженной где-то рядом,\nДля глаз и дум негаданный вполне,",
+      "text_it": "come in lo specchio fiamma di doppiero\nvede colui che se n'alluma retro,\nprima che l'abbia in vista o in pensiero,"
+    },
+    {
+      "canto_number": 28,
+      "tercet_number": 3,
+      "color_hex": "#78C898",
+      "text_ru": "И обратясь, чтобы проверить взглядом\nСогласованье правды и стекла,\nМы видим слитность их, как песни с ладом, -",
+      "text_it": "e sé rivolge per veder se 'l vetro\nli dice il vero, e vede ch'el s'accorda\ncon esso come nota con suo metro;"
+    },
+    {
+      "canto_number": 28,
+      "tercet_number": 4,
+      "color_hex": "#80D0A0",
+      "text_ru": "Так и моя мне память сберегла,\nЧто я так сделал, взоры погружая\nВ глаза, где путы мне любовь сплела.",
+      "text_it": "così la mia memoria si ricorda\nch'io feci riguardando ne' belli occhi\nonde a pigliarmi fece Amor la corda."
+    },
+    {
+      "canto_number": 28,
+      "tercet_number": 5,
+      "color_hex": "#88D8A8",
+      "text_ru": "И я, - невольно зренье обращая\nК тому, что можно видеть в сфере той,\nЕе от края оглянув до края, -",
+      "text_it": "E com' io mi rivolsi e furon tocchi\nli miei da ciò che pare in quel volume,\nquandunque nel suo giro ben s'adocchi,"
+    },
+    {
+      "canto_number": 28,
+      "tercet_number": 6,
+      "color_hex": "#FFFFF8",
+      "text_ru": "Увидел Точку, лившую такой\nОстрейший свет, что вынести нет мочи\nГлазам, ожженным этой остротой.",
+      "text_it": "un punto vidi che raggiava lume\nacuto sì, che 'l viso ch'elli affoca\nchiuder conviensi per lo forte acume;"
+    },
+    {
+      "canto_number": 28,
+      "tercet_number": 7,
+      "color_hex": "#F8F8F0",
+      "text_ru": "Звезда, чью малость еле видят очи,\nКазалась бы луной, соседя с ней,\nКак со звездой звезда в просторах ночи.",
+      "text_it": "e quale stella par quinci più poca,\nparrebbe luna, locata con esso\ncome stella con stella si collòca."
+    },
+    {
+      "canto_number": 28,
+      "tercet_number": 8,
+      "color_hex": "#F0F0E8",
+      "text_ru": "Как невдали обвит кольцом лучей\nНебесный свет, его изобразивший,\nКогда несущий пар всего плотней,",
+      "text_it": "Forse cotanto quanto pare appresso\nalo cigner la luce che 'l dipigne\nquando 'l vapor che 'l porta più è spesso,"
+    },
+    {
+      "canto_number": 28,
+      "tercet_number": 9,
+      "color_hex": "#FFE8C0",
+      "text_ru": "Так Точку обнял круг огня, круживший\nСтоль быстро, что одолевался им\nБыстрейший бег, вселенную обвивший.",
+      "text_it": "distante intorno al punto un cerchio d'igne\nsi girava sì ratto, ch'avria vinto\nquel moto che più tosto il mondo cigne;"
+    },
+    {
+      "canto_number": 28,
+      "tercet_number": 10,
+      "color_hex": "#F0D8B0",
+      "text_ru": "А этот опоясан был другим,\nТот - третьим, третий в свой черед - четвертым,\nЧетвертый - пятым, пятый, вновь, - шестым.",
+      "text_it": "e questo era d'un altro circumcinto,\ne quel dal terzo, e 'l terzo poi dal quarto,\ndal quinto il quarto, e poi dal sesto il quinto."
+    },
+    {
+      "canto_number": 28,
+      "tercet_number": 11,
+      "color_hex": "#E8D0A8",
+      "text_ru": "Седьмой был вширь уже настоль простертым,\nЧто никогда б его не охватил\nГонец Юноны круговым развертом.",
+      "text_it": "Sopra seguiva il settimo sì sparto\ngià di larghezza, che 'l messo di Iuno\nintero a contenerlo sarebbe arto."
+    },
+    {
+      "canto_number": 28,
+      "tercet_number": 12,
+      "color_hex": "#E0C8A0",
+      "text_ru": "Восьмой кружил в девятом; каждый плыл\nТем более замедленно, чем дале\nПо счету он от единицы был.",
+      "text_it": "Così l'ottavo e 'l nono; e chiascheduno\npiù tardo si movea, secondo ch'era\nin numero distante più da l'uno;"
+    },
+    {
+      "canto_number": 28,
+      "tercet_number": 13,
+      "color_hex": "#D8C098",
+      "text_ru": "Чем ближе к чистой Искре, тем пылали\nОни ясней, должно быть оттого,\nЧто истину ее полней вбирали.",
+      "text_it": "e quello avea la fiamma più sincera\ncui men distava la favilla pura,\ncredo, però che più di lei s'invera."
+    },
+    {
+      "canto_number": 28,
+      "tercet_number": 14,
+      "color_hex": "#90C098",
+      "text_ru": "При виде колебанья моего:\n\"От этой Точки, - молвил мой вожатый, -\nЗависят небеса и естество.",
+      "text_it": "La donna mia, che mi vedëa in cura\nforte sospeso, disse: «Da quel punto\ndepende il cielo e tutta la natura."
+    },
+    {
+      "canto_number": 28,
+      "tercet_number": 15,
+      "color_hex": "#88B890",
+      "text_ru": "Всмотрись в тот круг, всех ближе к ней прижатый:\nОн потому так быстро устремлен,\nЧто кружит, страстью пламенной объятый\".",
+      "text_it": "Mira quel cerchio che più li è congiunto;\ne sappi che 'l suo muovere è sì tosto\nper l'affocato amore ond' elli è punto»."
+    },
+    {
+      "canto_number": 28,
+      "tercet_number": 16,
+      "color_hex": "#78A888",
+      "text_ru": "И я в ответ: \"Будь мир расположен,\nКак эти круговратные обводы,\nПредложенным я был бы утолен.",
+      "text_it": "E io a lei: «Se 'l mondo fosse posto\ncon l'ordine ch'io veggio in quelle rote,\nsazio m'avrebbe ciò che m'è proposto;"
+    },
+    {
+      "canto_number": 28,
+      "tercet_number": 17,
+      "color_hex": "#689880",
+      "text_ru": "Но в мире ощущаемой природы\nЧем выше над срединой взор воздет,\nТем все божественнее небосводы.",
+      "text_it": "ma nel mondo sensibile si puote\nveder le volte tanto più divine,\nquant' elle son dal centro più remote."
+    },
+    {
+      "canto_number": 28,
+      "tercet_number": 18,
+      "color_hex": "#70A888",
+      "text_ru": "Поэтому мне надобен ответ\nОб этом дивном ангельском чертоге,\nКоторому предел - любовь и свет:",
+      "text_it": "Onde, se 'l mio disir dee aver fine\nin questo miro e angelico templo\nche solo amore e luce ha per confine,"
+    },
+    {
+      "canto_number": 28,
+      "tercet_number": 19,
+      "color_hex": "#689078",
+      "text_ru": "Зачем идут не по одной дороге\nПодобье и прообраз? Мысль вокруг\nВитает и нуждается в подмоге\".",
+      "text_it": "udir convienmi ancor come l'essemplo\ne l'essemplare non vanno d'un modo,\nché io per me indarno a ciò contemplo»."
+    },
+    {
+      "canto_number": 28,
+      "tercet_number": 20,
+      "color_hex": "#608070",
+      "text_ru": "\"Что этот узел напряженью рук\nНе поддается, - ты не удивляйся:\nОн стал, никем не тронут, слишком туг\".",
+      "text_it": "«Se li tuoi diti non sono a tal nodo\nsufficïenti, non è maraviglia:\ntanto, per non tentare, è fatto sodo!»."
+    },
+    {
+      "canto_number": 28,
+      "tercet_number": 21,
+      "color_hex": "#709080",
+      "text_ru": "Так госпожа; и дальше: \"Насыщайся\nТем, что воспримешь из моих речей,\nИ мыслию над этим изощряйся.",
+      "text_it": "Così la donna mia; poi disse: «Piglia\nquel ch'io ti dicerò, se vuo' saziarti;\ne intorno da esso t'assottiglia."
+    },
+    {
+      "canto_number": 28,
+      "tercet_number": 22,
+      "color_hex": "#78A088",
+      "text_ru": "Плотские своды - шире иль тесней,\nСмотря по большей или меньшей силе,\nРазлитой на пространстве их частей.",
+      "text_it": "Li cerchi corporai sono ampi e arti\nsecondo il più e 'l men de la virtute\nche si distende per tutte lor parti."
+    },
+    {
+      "canto_number": 28,
+      "tercet_number": 23,
+      "color_hex": "#80B090",
+      "text_ru": "По мере силы - мера изобилии;\nОбилье больше, где большой объем\nИ нет частей, что б целому вредили.",
+      "text_it": "Maggior bontà vuol far maggior salute;\nmaggior salute maggior corpo cape,\ns'elli ha le parti igualmente compiute."
+    },
+    {
+      "canto_number": 28,
+      "tercet_number": 24,
+      "color_hex": "#88C098",
+      "text_ru": "Наш свод, влекущий в вихре круговом\nВсе мирозданье, согласован дружно\nС превысшим в знанье и в любви кольцом.",
+      "text_it": "Dunque costui che tutto quanto rape\nl'altro universo seco, corrisponde\nal cerchio che più ama e che più sape:"
+    },
+    {
+      "canto_number": 28,
+      "tercet_number": 25,
+      "color_hex": "#90D0A0",
+      "text_ru": "И ты увидишь, - ибо мерить нужно\nЛишь силу, а не видимость того,\nЧто здесь перед тобой стремится кружно, -",
+      "text_it": "per che, se tu a la virtù circonde\nla tua misura, non a la parvenza\nde le sustanze che t'appaion tonde,"
+    },
+    {
+      "canto_number": 28,
+      "tercet_number": 26,
+      "color_hex": "#98D8A8",
+      "text_ru": "Как в каждом небе дивное сродство\nБольшого - с многим, с малым - небольшого\nЕго связует с Разумом его\".",
+      "text_it": "tu vederai mirabil consequenza\ndi maggio a più e di minore a meno,\nin ciascun cielo, a süa intelligenza»."
+    },
+    {
+      "canto_number": 28,
+      "tercet_number": 27,
+      "color_hex": "#A0E0B0",
+      "text_ru": "Как полушарье воздуха земного\nЯснеет вдруг, когда Борей дохнет\nЩекой, которая не так сурова,",
+      "text_it": "Come rimane splendido e sereno\nl'emisperio de l'aere, quando soffia\nBorea da quella guancia ond' è più leno,"
+    },
+    {
+      "canto_number": 28,
+      "tercet_number": 28,
+      "color_hex": "#A8E8B8",
+      "text_ru": "И, тая, растворяется налет\nОкрестной мглы, чтоб небо озарилось\nНеисчислимостью своих красот, -",
+      "text_it": "per che si purga e risolve la roffia\nche pria turbava, sì che 'l ciel ne ride\ncon le bellezze d'ogne sua paroffia;"
+    },
+    {
+      "canto_number": 28,
+      "tercet_number": 29,
+      "color_hex": "#B0F0C0",
+      "text_ru": "Таков был я, когда со мной делилась\nСвоим ответом ясным госпожа\nИ правда, как звезда в ночи, открылась.",
+      "text_it": "così fec'ïo, poi che mi provide\nla donna mia del suo risponder chiaro,\ne come stella in cielo il ver si vide."
+    },
+    {
+      "canto_number": 28,
+      "tercet_number": 30,
+      "color_hex": "#FFD890",
+      "text_ru": "Чуть речь ее дошла до рубежа,\nТо так железо, плавясь в мощном зное,\nИскрит, как кольца брызнули, кружа.",
+      "text_it": "E poi che le parole sue restaro,\nnon altrimenti ferro disfavilla\nche bolle, come i cerchi sfavillaro."
+    },
+    {
+      "canto_number": 28,
+      "tercet_number": 31,
+      "color_hex": "#FFE098",
+      "text_ru": "И все те искры мчались в общем рое,\nИ множились несметней их огни,\nЧем шахматное поле, множась вдвое.",
+      "text_it": "L'incendio suo seguiva ogne scintilla;\ned eran tante, che 'l numero loro\npiù che 'l doppiar de li scacchi s'inmilla."
+    },
+    {
+      "canto_number": 28,
+      "tercet_number": 32,
+      "color_hex": "#F8D888",
+      "text_ru": "Я слышал, как хвалу поют они\nНедвижной Точке, вкруг нее стремимы\nИз века в век, как было искони.",
+      "text_it": "Io sentiva osannar di coro in coro\nal punto fisso che li tiene a li ubi,\ne terrà sempre, ne' quai sempre fuoro."
+    },
+    {
+      "canto_number": 28,
+      "tercet_number": 33,
+      "color_hex": "#A0C098",
+      "text_ru": "И видевшая разум мой томимый\nСказала: \"В первых двух кругах кружат,\nОбъемля Серафимов, Херувимы.",
+      "text_it": "E quella che vedëa i pensier dubi\nne la mia mente, disse: «I cerchi primi\nt'hanno mostrato Serafi e Cherubi."
+    },
+    {
+      "canto_number": 28,
+      "tercet_number": 34,
+      "color_hex": "#98B890",
+      "text_ru": "Покорны узам, бег они стремят,\nУподобляясь Точке, сколько властны;\nА властны - сколько вознесен их взгляд.",
+      "text_it": "Così veloci seguono i suoi vimi,\nper somigliarsi al punto quanto ponno;\ne posson quanto a veder son soblimi."
+    },
+    {
+      "canto_number": 28,
+      "tercet_number": 35,
+      "color_hex": "#90B088",
+      "text_ru": "Ближайший к ним любви венец прекрасный\nСплели Престолы божьего лица;\nНа них закончен первый сонм трехчастный.",
+      "text_it": "Quelli altri amori che 'ntorno li vonno,\nsi chiaman Troni del divino aspetto,\nper che 'l primo ternaro terminonno;"
+    },
+    {
+      "canto_number": 28,
+      "tercet_number": 36,
+      "color_hex": "#88A880",
+      "text_ru": "Знай, что отрада каждого кольца -\nВ том, сколько зренье в Истину вникает,\nГде разум утоляем до конца.",
+      "text_it": "e dei saper che tutti hanno diletto\nquanto la sua veduta si profonda\nnel vero in che si queta ogne intelletto."
+    },
+    {
+      "canto_number": 28,
+      "tercet_number": 37,
+      "color_hex": "#80A078",
+      "text_ru": "Мы видим, что блаженство возникает\nОт зрения, не от любви; она\nЛишь спутницей его сопровождает;",
+      "text_it": "Quinci si può veder come si fonda\nl'esser beato ne l'atto che vede,\nnon in quel ch'ama, che poscia seconda;"
+    },
+    {
+      "canto_number": 28,
+      "tercet_number": 38,
+      "color_hex": "#789870",
+      "text_ru": "А зренью мощь заслугами дана,\nЧьи корни - в милости и в доброй воле;\nТак лестница помалу пройдена.",
+      "text_it": "e del vedere è misura mercede,\nche grazia partorisce e buona voglia:\ncosì di grado in grado si procede."
+    },
+    {
+      "canto_number": 28,
+      "tercet_number": 39,
+      "color_hex": "#88B078",
+      "text_ru": "Три смежных сонма, зеленея в доле\nВовеки нескончаемой весны,\nГде и ночной Овен не властен боле,",
+      "text_it": "L'altro ternaro, che così germoglia\nin questa primavera sempiterna\nche notturno Arïete non dispoglia,"
+    },
+    {
+      "canto_number": 28,
+      "tercet_number": 40,
+      "color_hex": "#90B880",
+      "text_ru": "\"Осанною\" всегда оглашены\nНа три напева, что в тройной святыне\nПоют троеобразные чины.",
+      "text_it": "perpetüalemente 'Osanna' sberna\ncon tre melode, che suonano in tree\nordini di letizia onde s'interna."
+    },
+    {
+      "canto_number": 28,
+      "tercet_number": 41,
+      "color_hex": "#98C088",
+      "text_ru": "В иерархии этой - три богини:\nСперва - Господства, дальше - Сил венец,\nА вслед за ними - Власти, в третьем чине.",
+      "text_it": "In essa gerarcia son l'altre dee:\nprima Dominazioni, e poi Virtudi;\nl'ordine terzo di Podestadi èe."
+    },
+    {
+      "canto_number": 28,
+      "tercet_number": 42,
+      "color_hex": "#A0C890",
+      "text_ru": "В восторгах предпоследних двух колец\nНачала и Архангелы витают;\nИ Ангельская радость наконец.",
+      "text_it": "Poscia ne' due penultimi tripudi\nPrincipati e Arcangeli si girano;\nl'ultimo è tutto d'Angelici ludi."
+    },
+    {
+      "canto_number": 28,
+      "tercet_number": 43,
+      "color_hex": "#A8D098",
+      "text_ru": "Все эти сонмы к высоте взирают\nИ, книзу власть победную лия,\nВлекомы к богу, сами увлекают.",
+      "text_it": "Questi ordini di sù tutti s'ammirano,\ne di giù vincon sì, che verso Dio\ntutti tirati sono e tutti tirano."
+    },
+    {
+      "canto_number": 28,
+      "tercet_number": 44,
+      "color_hex": "#90C088",
+      "text_ru": "И Дионисий в тайну бытия\nИх степеней так страстно погружался,\nЧто назвал их и различил, как я.",
+      "text_it": "E Dïonisio con tanto disio\na contemplar questi ordini si mise,\nche li nomò e distinse com' io."
+    },
+    {
+      "canto_number": 28,
+      "tercet_number": 45,
+      "color_hex": "#88B080",
+      "text_ru": "Григорий с ним потом не соглашался;\nЗато, чуть в небе он глаза раскрыл,\nОн сам же над собою посмеялся.",
+      "text_it": "Ma Gregorio da lui poi si divise;\nonde, sì tosto come li occhi aperse\nin questo ciel, di sé medesmo rise."
+    },
+    {
+      "canto_number": 28,
+      "tercet_number": 46,
+      "color_hex": "#80A878",
+      "text_ru": "И если столько тайных правд явил\nПред миром смертный, чуда в том не много:\nЗдесь их узревший - их ему внушил\nСредь прочих истин этого чертога\".",
+      "text_it": "E se tanto secreto ver proferse\nmortale in terra, non voglio ch'ammiri:\nché chi 'l vide qua sù gliel discoperse\ncon altro assai del ver di questi giri»."
+    }
+  ]
+}

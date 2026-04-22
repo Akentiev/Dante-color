@@ -1,0 +1,349 @@
+{
+  "part": "Paradiso",
+  "canto": 27,
+  "tercets": [
+    {
+      "canto_number": 27,
+      "tercet_number": 1,
+      "color_hex": "#60B078",
+      "text_ru": "\"Отцу, и сыну, и святому духу\" -\nПовсюду - \"слава!\" - раздалось в Раю,\nИ тот напев был упоеньем слуху.",
+      "text_it": "'Al Padre, al Figlio, a lo Spirito Santo',\ncominciò, 'gloria!', tutto 'l paradiso,\nsì che m'inebrïava il dolce canto."
+    },
+    {
+      "canto_number": 27,
+      "tercet_number": 2,
+      "color_hex": "#68B880",
+      "text_ru": "Взирая, я, казалось, взором пью\nУлыбку мирозданья, так что зримый\nИ звучный хмель вливался в грудь мою.",
+      "text_it": "Ciò ch'io vedeva mi sembiava un riso\nde l'universo; per che mia ebbrezza\nintrava per l'udire e per lo viso."
+    },
+    {
+      "canto_number": 27,
+      "tercet_number": 3,
+      "color_hex": "#70C088",
+      "text_ru": "О, радость! О, восторг невыразимый!\nО, жизнь, где все-любовь и все-покой!\nО, верный клад, без алчности хранимый!",
+      "text_it": "Oh gioia! oh ineffabile allegrezza!\noh vita intègra d'amore e di pace!\noh sanza brama sicura ricchezza!"
+    },
+    {
+      "canto_number": 27,
+      "tercet_number": 4,
+      "color_hex": "#78C890",
+      "text_ru": "Четыре светоча передо мной\nПылали, и, мгновенье за мгновеньем,\nПредставший первым силил пламень свой;",
+      "text_it": "Dinanzi a li occhi miei le quattro face\nstavano accese, e quella che pria venne\nincominciò a farsi più vivace,"
+    },
+    {
+      "canto_number": 27,
+      "tercet_number": 5,
+      "color_hex": "#D8A868",
+      "text_ru": "И стал таким, каким пред нашим зреньем\nЮпитер был бы, если б Марс и он,\nСтав птицами, сменились опереньем.",
+      "text_it": "e tal ne la sembianza sua divenne,\nqual diverrebbe Iove, s'elli e Marte\nfossero augelli e cambiassersi penne."
+    },
+    {
+      "canto_number": 27,
+      "tercet_number": 6,
+      "color_hex": "#C89860",
+      "text_ru": "Та власть, которой там распределен\nЧеред и чин, благословенным светам\nВелела смолкнуть, и угас их звон,",
+      "text_it": "La provedenza, che quivi comparte\nvice e officio, nel beato coro\nsilenzio posto avea da ogne parte,"
+    },
+    {
+      "canto_number": 27,
+      "tercet_number": 7,
+      "color_hex": "#B88858",
+      "text_ru": "Когда я внял: \"Что я меняюсь цветом,\nНе удивляйся; внемля мой глагол,\nВсе переменят цвет в соборе этом.",
+      "text_it": "quand' ïo udi': «Se io mi trascoloro,\nnon ti maravigliar, ché, dicend' io,\nvedrai trascolorar tutti costoro."
+    },
+    {
+      "canto_number": 27,
+      "tercet_number": 8,
+      "color_hex": "#C84848",
+      "text_ru": "Тот, кто, как вор, воссел на мой престол,\nНа мой престол, на мой престол, который\nПуст перед сыном божиим, возвел",
+      "text_it": "Quelli ch'usurpa in terra il luogo mio,\nil luogo mio, il luogo mio, che vaca\nne la presenza del Figliuol di Dio,"
+    },
+    {
+      "canto_number": 27,
+      "tercet_number": 9,
+      "color_hex": "#D03030",
+      "text_ru": "На кладбище моем сплошные горы\nКровавой грязи; сверженный с высот,\nЛюбуясь этим, утешает взоры\".",
+      "text_it": "fatt' ha del cimitero mio cloaca\ndel sangue e de la puzza; onde 'l perverso\nche cadde di qua sù, là giù si placa»."
+    },
+    {
+      "canto_number": 27,
+      "tercet_number": 10,
+      "color_hex": "#E85050",
+      "text_ru": "Тот цвет, которым солнечный восход\nИль час заката облака объемлет,\nВнезапно охватил весь небосвод.",
+      "text_it": "Di quel color che per lo sole avverso\nnube dipigne da sera e da mane,\nvid' ïo allora tutto 'l ciel cosperso."
+    },
+    {
+      "canto_number": 27,
+      "tercet_number": 11,
+      "color_hex": "#D04040",
+      "text_ru": "И словно женщина, чья честь не дремлет\nИ сердце стойко, чувствует испуг,\nКогда о чьем-либо проступке внемлет,",
+      "text_it": "E come donna onesta che permane\ndi sé sicura, e per l'altrui fallanza,\npur ascoltando, timida si fane,"
+    },
+    {
+      "canto_number": 27,
+      "tercet_number": 12,
+      "color_hex": "#B83838",
+      "text_ru": "Так Беатриче изменилась вдруг;\nЯ думаю, что небо так затмилось,\nКогда Всесильный поникал средь мук.",
+      "text_it": "così Beatrice trasmutò sembianza;\ne tale eclissi credo che 'n ciel fue\nquando patì la supprema possanza."
+    },
+    {
+      "canto_number": 27,
+      "tercet_number": 13,
+      "color_hex": "#A83030",
+      "text_ru": "Меж тем все дальше речь его стремилась,\nИ перемена в голосе была\nНе меньшая, чем в облике явилась.",
+      "text_it": "Poi procedetter le parole sue\ncon voce tanto da sé trasmutata,\nche la sembianza non si mutò piùe:"
+    },
+    {
+      "canto_number": 27,
+      "tercet_number": 14,
+      "color_hex": "#982828",
+      "text_ru": "\"Невеста божья не затем взросла\nМоею кровью, кровью Лина, Клета,\nЧтоб золото стяжалось без числа;",
+      "text_it": "«Non fu la sposa di Cristo allevata\ndel sangue mio, di Lin, di quel di Cleto,\nper essere ad acquisto d'oro usata;"
+    },
+    {
+      "canto_number": 27,
+      "tercet_number": 15,
+      "color_hex": "#A84040",
+      "text_ru": "И только чтоб стяжать блаженство это,\nСикст, Пий, Каликст и праведный Урбан,\nСтеня, пролили кровь в былые лета.",
+      "text_it": "ma per acquisto d'esto viver lieto\ne Sisto e Pïo e Calisto e Urbano\nsparser lo sangue dopo molto fleto."
+    },
+    {
+      "canto_number": 27,
+      "tercet_number": 16,
+      "color_hex": "#903838",
+      "text_ru": "Не мы хотели, чтобы христиан\nПреемник наш пристрастною рукою\nДелил на правый и на левый стан;",
+      "text_it": "Non fu nostra intenzion ch'a destra mano\nd'i nostri successor parte sedesse,\nparte da l'altra del popol cristiano;"
+    },
+    {
+      "canto_number": 27,
+      "tercet_number": 17,
+      "color_hex": "#A04848",
+      "text_ru": "Ни чтоб ключи, полученные мною,\nМогли гербом на ратном стяге стать,\nКоторый на крещеных поднят к бою;",
+      "text_it": "né che le chiavi che mi fuor concesse,\ndivenisser signaculo in vessillo\nche contra battezzati combattesse;"
+    },
+    {
+      "canto_number": 27,
+      "tercet_number": 18,
+      "color_hex": "#B05050",
+      "text_ru": "Ни чтобы образ мой скреплял печать\nДля льготных грамот, покупных и лживых,\nМеня краснеть неволя и пылать!",
+      "text_it": "né ch'io fossi figura di sigillo\na privilegi venduti e mendaci,\nond' io sovente arrosso e disfavillo."
+    },
+    {
+      "canto_number": 27,
+      "tercet_number": 19,
+      "color_hex": "#C05858",
+      "text_ru": "В одежде пастырей-волков грызливых\nНа всех лугах мы видим средь ягнят.\nО божий суд, восстань на нечестивых!",
+      "text_it": "In vesta di pastor lupi rapaci\nsi veggion di qua sù per tutti i paschi:\no difesa di Dio, perché pur giaci?"
+    },
+    {
+      "canto_number": 27,
+      "tercet_number": 20,
+      "color_hex": "#D06060",
+      "text_ru": "Гасконцы с каорсинцами хотят\nПить нашу кровь; о доброе начало,\nВ какой конечный впало ты разврат!",
+      "text_it": "Del sangue nostro Caorsini e Guaschi\ns'apparecchian di bere: o buon principio,\na che vil fine convien che tu caschi!"
+    },
+    {
+      "canto_number": 27,
+      "tercet_number": 21,
+      "color_hex": "#B85858",
+      "text_ru": "Но промысел, чья помощь Рим спасала\nВ великой Сципионовой борьбе,\nСпасет, я знаю, - и пора настала.",
+      "text_it": "Ma l'alta provedenza, che con Scipio\ndifese a Roma la gloria del mondo,\nsoccorrà tosto, sì com' io concipio;"
+    },
+    {
+      "canto_number": 27,
+      "tercet_number": 22,
+      "color_hex": "#A05050",
+      "text_ru": "И ты, мой сын, сойдя к земной судьбе\nПод смертным грузом, смелыми устами\nСкажи о том, что я сказал тебе!\"",
+      "text_it": "e tu, figliuol, che per lo mortal pondo\nancor giù tornerai, apri la bocca,\ne non asconder quel ch'io non ascondo»."
+    },
+    {
+      "canto_number": 27,
+      "tercet_number": 23,
+      "color_hex": "#D0D8D0",
+      "text_ru": "Как дельный воздух мерзлыми парами\nСнежит к земле, едва лишь Козерог\nК светилу дня притронется рогами,",
+      "text_it": "Sì come di vapor gelati fiocca\nin giuso l'aere nostro, quando 'l corno\nde la capra del ciel col sol si tocca,"
+    },
+    {
+      "canto_number": 27,
+      "tercet_number": 24,
+      "color_hex": "#E0E8E0",
+      "text_ru": "Так здесь эфир себя в красу облек,\nПобедные взвевая испаренья,\nПомедлившие с нами долгий срок.",
+      "text_it": "in sù vid' io così l'etera addorno\nfarsi e fioccar di vapor trïunfanti\nche fatto avien con noi quivi soggiorno."
+    },
+    {
+      "canto_number": 27,
+      "tercet_number": 25,
+      "color_hex": "#C8D8C8",
+      "text_ru": "Мой взгляд следил все выше их движенья,\nПока среда чрезмерной высоты\nЕму не преградила восхожденья.",
+      "text_it": "Lo viso mio seguiva i suoi sembianti,\ne seguì fin che 'l mezzo, per lo molto,\nli tolse il trapassar del più avanti."
+    },
+    {
+      "canto_number": 27,
+      "tercet_number": 26,
+      "color_hex": "#B0C8B0",
+      "text_ru": "И госпожа, когда от той меты\nЯ взор отвел, сказала: \"Опуская\nГлаза, взгляни, куда пронесся ты!\"",
+      "text_it": "Onde la donna, che mi vide assolto\nde l'attendere in sù, mi disse: «Adima\nil viso e guarda come tu se' vòlto»."
+    },
+    {
+      "canto_number": 27,
+      "tercet_number": 27,
+      "color_hex": "#98B898",
+      "text_ru": "И я увидел, что с тех пор, когда я\nВниз посмотрел, над первой полосой\nЯ от средины сдвинулся до края.",
+      "text_it": "Da l'ora ch'ïo avea guardato prima\ni' vidi mosso me per tutto l'arco\nche fa dal mezzo al fine il primo clima;"
+    },
+    {
+      "canto_number": 27,
+      "tercet_number": 28,
+      "color_hex": "#88A888",
+      "text_ru": "Я видел там, за Гадесом, шальной\nУлиссов путь; здесь - берег, на котором\nЕвропа стала ношей дорогой.",
+      "text_it": "sì ch'io vedea di là da Gade il varco\nfolle d'Ulisse, e di qua presso il lito\nnel qual si fece Europa dolce carco."
+    },
+    {
+      "canto_number": 27,
+      "tercet_number": 29,
+      "color_hex": "#789878",
+      "text_ru": "Я тот клочок обвел бы шире взором,\nНо солнце в бездне упреждало нас\nНа целый знак и больше, в беге скором.",
+      "text_it": "E più mi fora discoverto il sito\ndi questa aiuola; ma 'l sol procedea\nsotto i mie' piedi un segno e più partito."
+    },
+    {
+      "canto_number": 27,
+      "tercet_number": 30,
+      "color_hex": "#A8C090",
+      "text_ru": "Влюбленный дух, который всякий час\nСтремился пламенно к своей богине,\nКак никогда ждал взора милых глаз;",
+      "text_it": "La mente innamorata, che donnea\ncon la mia donna sempre, di ridure\nad essa li occhi più che mai ardea;"
+    },
+    {
+      "canto_number": 27,
+      "tercet_number": 31,
+      "color_hex": "#B8C898",
+      "text_ru": "Все, чем природа или кисть доныне\nПленяли взор, чтоб уловлять сердца,\nИль в смертном теле, или на картине,",
+      "text_it": "e se natura o arte fé pasture\nda pigliare occhi, per aver la mente,\nin carne umana o ne le sue pitture,"
+    },
+    {
+      "canto_number": 27,
+      "tercet_number": 32,
+      "color_hex": "#C8D8A0",
+      "text_ru": "Казалось бы ничтожным до конца\nПред дивной радостью, что мне блеснула,\nЧуть я увидел свет ее лица;",
+      "text_it": "tutte adunate, parrebber nïente\nver' lo piacer divin che mi refulse,\nquando mi volsi al suo viso ridente."
+    },
+    {
+      "canto_number": 27,
+      "tercet_number": 33,
+      "color_hex": "#D8E8A8",
+      "text_ru": "И мощь, которой мне в глаза пахнуло,\nМеня, рванув из Ледина гнезда,\nВ быстрейшее из всех небес метнула.",
+      "text_it": "E la virtù che lo sguardo m'indulse,\ndel bel nido di Leda mi divelse,\ne nel ciel velocissimo m'impulse."
+    },
+    {
+      "canto_number": 27,
+      "tercet_number": 34,
+      "color_hex": "#E8F8E8",
+      "text_ru": "Так однородна вся его среда,\nЧто я не ведал, где я оказался,\nМоей вожатой вознесен туда.",
+      "text_it": "Le parti sue vivissime ed eccelse\nsì uniforme son, ch'i' non so dire\nqual Bëatrice per loco mi scelse."
+    },
+    {
+      "canto_number": 27,
+      "tercet_number": 35,
+      "color_hex": "#F0FFF0",
+      "text_ru": "И мне, чтоб я в догадках не терялся,\nТак радостно сказала госпожа,\nКак будто бог в ее лице смеялся:",
+      "text_it": "Ma ella, che vedëa 'l mio disire,\nincominciò, ridendo tanto lieta,\nche Dio parea nel suo volto gioire:"
+    },
+    {
+      "canto_number": 27,
+      "tercet_number": 36,
+      "color_hex": "#E0F0D8",
+      "text_ru": "\"Природа мира, все, что есть, кружа\nВокруг ядра, которое почило,\nИдет отсюда, как от рубежа.",
+      "text_it": "«La natura del mondo, che quïeta\nil mezzo e tutto l'altro intorno move,\nquinci comincia come da sua meta;"
+    },
+    {
+      "canto_number": 27,
+      "tercet_number": 37,
+      "color_hex": "#D0E0C8",
+      "text_ru": "И небо это божья мысль вместила,\nГде и любовь, чья власть его влечет,\nБерет свой пыл, и скрытая в нем сила.",
+      "text_it": "e questo cielo non ha altro dove\nche la mente divina, in che s'accende\nl'amor che 'l volge e la virtù ch'ei piove."
+    },
+    {
+      "canto_number": 27,
+      "tercet_number": 38,
+      "color_hex": "#C0D0B8",
+      "text_ru": "Свет и любовь объемлют этот свод,\nКак всякий низший кружит, им объятый;\nИ те высоты их творец блюдет.",
+      "text_it": "Luce e amor d'un cerchio lui comprende,\nsì come questo li altri; e quel precinto\ncolui che 'l cinge solamente intende."
+    },
+    {
+      "canto_number": 27,
+      "tercet_number": 39,
+      "color_hex": "#B0C0A8",
+      "text_ru": "Движенье здесь не мерят мерой взятой,\nНо все движенья меру в нем берут,\nКак десять - в половине или в пятой.",
+      "text_it": "Non è suo moto per altro distinto,\nma li altri son mensurati da questo,\nsì come diece da mezzo e da quinto;"
+    },
+    {
+      "canto_number": 27,
+      "tercet_number": 40,
+      "color_hex": "#A0B098",
+      "text_ru": "Как время, в этот погрузясь сосуд\nКорнями, в остальных живет вершиной,\nТеперь понять тебе уже не в труд.",
+      "text_it": "e come il tempo tegna in cotal testo\nle sue radici e ne li altri le fronde,\nomai a te può esser manifesto."
+    },
+    {
+      "canto_number": 27,
+      "tercet_number": 41,
+      "color_hex": "#706858",
+      "text_ru": "О жадность! Не способен ни единый\nИз тех, кого ты держишь, поглотив,\nПоднять зеницы над твоей пучиной!",
+      "text_it": "Oh cupidigia che i mortali affonde\nsì sotto te, che nessuno ha podere\ndi trarre li occhi fuor de le tue onde!"
+    },
+    {
+      "canto_number": 27,
+      "tercet_number": 42,
+      "color_hex": "#687060",
+      "text_ru": "Цвет доброй воли в смертном сердце жив;\nНо ливней беспрестанные потоки\nРодят уродцев из хороших слив.",
+      "text_it": "Ben fiorisce ne li uomini il volere;\nma la pioggia continüa converte\nin bozzacchioni le sosine vere."
+    },
+    {
+      "canto_number": 27,
+      "tercet_number": 43,
+      "color_hex": "#607868",
+      "text_ru": "Одни младенцы слушают уроки\nДобра и веры, чтоб забыть вполне\nИх смысл скорей, чем опушатся щеки.",
+      "text_it": "Fede e innocenza son reperte\nsolo ne' parvoletti; poi ciascuna\npria fugge che le guance sian coperte."
+    },
+    {
+      "canto_number": 27,
+      "tercet_number": 44,
+      "color_hex": "#588070",
+      "text_ru": "Кто, лепеча, о постном помнил дне,\nВкушает языком, возросшим в силе,\nЛюбую пищу при любой луне.",
+      "text_it": "Tale, balbuzïendo ancor, digiuna,\nche poi divora, con la lingua sciolta,\nqualunque cibo per qualunque luna;"
+    },
+    {
+      "canto_number": 27,
+      "tercet_number": 45,
+      "color_hex": "#508878",
+      "text_ru": "Иной из тех, что, лепеча, любили\nИ чтили мать, - владея речью, рад\nЕе увидеть поскорей в могиле.",
+      "text_it": "e tal, balbuzïendo, ama e ascolta\nla madre sua, che, con loquela intera,\ndisïa poi di vederla sepolta."
+    },
+    {
+      "canto_number": 27,
+      "tercet_number": 46,
+      "color_hex": "#489080",
+      "text_ru": "И так вот кожу белую чернят,\nВняв обольщеньям дочери прекрасной\nДарующего утро и закат.",
+      "text_it": "Così si fa la pelle bianca nera\nnel primo aspetto de la bella figlia\ndi quel ch'apporta mane e lascia sera."
+    },
+    {
+      "canto_number": 27,
+      "tercet_number": 47,
+      "color_hex": "#589870",
+      "text_ru": "Размысли, и причина станет ясной:\nВедь над землею власть упразднена,\nИ род людской идет стезей опасной.",
+      "text_it": "Tu, perché non ti facci maraviglia,\npensa che 'n terra non è chi governi;\nonde sì svïa l'umana famiglia."
+    },
+    {
+      "canto_number": 27,
+      "tercet_number": 48,
+      "color_hex": "#78B088",
+      "text_ru": "Но раньше, чем январь возьмет весна\nПосредством сотой, вами небреженной,\nТак хлынет светом горняя страна,",
+      "text_it": "Ma prima che gennaio tutto si sverni\nper la centesma ch'è là giù negletta,\nraggeran sì questi cerchi superni,"
+    },
+    {
+      "canto_number": 27,
+      "tercet_number": 49,
+      "color_hex": "#88C098",
+      "text_ru": "Что вихрь, уже давно предвозвещенный,\nНосы туда, где кормы, повернет,\nПомчав суда дорогой неуклонной;\nИ за цветком поспеет добрый плод\".",
+      "text_it": "che la fortuna che tanto s'aspetta,\nle poppe volgerà u' son le prore,\nsì che la classe correrà diretta;\ne vero frutto verrà dopo 'l fiore»."
+    }
+  ]
+}

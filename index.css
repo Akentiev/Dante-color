@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Inter:wght@300;400;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-void text-white font-sans antialiased;
+    /* Custom Grain Texture */
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.05'/%3E%3C/svg%3E");
+  }
+}
+
+@layer utilities {
+  .glass-panel {
+    @apply backdrop-blur-md bg-white/5 border border-white/10 shadow-xl;
+  }
+  
+  .text-shadow-glow {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  }
+}
+
+/* ─── Animated title chars ──────────────────────────────────────────────── */
+
+@keyframes fadeInChar {
+  from { opacity: 0; transform: translateY(5px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ─── Screen transition portal ──────────────────────────────────────────── */
+
+@keyframes portalExpand {
+  0%   { clip-path: circle(0% at 50% 50%);   filter: brightness(2.8); }
+  35%  { filter: brightness(1.4); }
+  100% { clip-path: circle(150% at 50% 50%); filter: brightness(1); }
+}
+
+@keyframes portalFade {
+  0%   { opacity: 1; filter: brightness(1); }
+  100% { opacity: 0; filter: brightness(0.6); }
+}
+
+@keyframes shockwaveRing {
+  0%   { transform: translate(-50%, -50%) scale(0);    opacity: 0.7; }
+  60%  { opacity: 0.25; }
+  100% { transform: translate(-50%, -50%) scale(8);    opacity: 0; }
+}
+
+/* Circle entrance for grid items */
+@keyframes circleEnter {
+  from {
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 0;
+  }
+  to {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+  }
+}
+
+.portal-expanding {
+  animation: portalExpand 500ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.portal-fading {
+  clip-path: circle(150% at 50% 50%);
+  animation: portalFade 400ms cubic-bezier(0.55, 0, 1, 1) forwards;
+}
+
+@keyframes portalContract {
+  0%   { clip-path: circle(150% at var(--px, 50%) var(--py, 50%)); filter: brightness(1.2); }
+  65%  { filter: brightness(1.8); }
+  100% { clip-path: circle(0% at var(--px, 50%) var(--py, 50%));   filter: brightness(2.5); }
+}
+
+.portal-contracting {
+  clip-path: circle(150% at var(--px, 50%) var(--py, 50%));
+  animation: portalContract 550ms cubic-bezier(0.7, 0, 0.84, 0) forwards;
+}
+
+.portal-shockwave {
+  position: absolute;
+  top: 50%; left: 50%;
+  width: 80px; height: 80px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  animation: shockwaveRing 480ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  pointer-events: none;
+}
+
+/* Oracle button ring pulse */
+@keyframes oracleRing {
+  0%   { transform: scale(1);   opacity: 0.35; }
+  75%  { transform: scale(1.5); opacity: 0; }
+  100% { transform: scale(1.5); opacity: 0; }
+}
+.oracle-ring {
+  animation: oracleRing 2.8s ease-out infinite;
+}
+
+/* Custom Scrollbar for Webkit */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.4);
+}

@@ -1,0 +1,342 @@
+{
+  "part": "Paradiso",
+  "canto": 29,
+  "tercets": [
+    {
+      "canto_number": 29,
+      "tercet_number": 1,
+      "color_hex": "#6AB88C",
+      "text_ru": "Когда чету, рожденную Латоной,\nЗдесь - знак Овна, там - знак Весов хранит,\nА горизонт связует общей зоной,",
+      "text_it": "Quando ambedue li figli di Latona,\ncoperti del Montone e de la Libra,\nfanno de l'orizzonte insieme zona,"
+    },
+    {
+      "canto_number": 29,
+      "tercet_number": 2,
+      "color_hex": "#6DBA8F",
+      "text_ru": "То миг, когда их выровнял зенит,\nИ миг, в который связь меж ними пала\nИ каждый в новый небосвод спешит,",
+      "text_it": "quant' è dal punto che 'l cenìt inlibra\ninfin che l'uno e l'altro da quel cinto,\ncambiando l'emisperio, si dilibra,"
+    },
+    {
+      "canto_number": 29,
+      "tercet_number": 3,
+      "color_hex": "#71BD93",
+      "text_ru": "Разлучены не дольше, чем молчала\nС улыбкой Беатриче, все туда\nСмотря, где Точка взор мой побеждала.",
+      "text_it": "tanto, col volto di riso dipinto,\nsi tacque Bëatrice, riguardando\nfiso nel punto che m'avëa vinto."
+    },
+    {
+      "canto_number": 29,
+      "tercet_number": 4,
+      "color_hex": "#76C198",
+      "text_ru": "Она промолвила: \"Мне нет труда\nТебе ответить, твой вопрос читая\nТам, где слились все \"где\" и все \"когда\".",
+      "text_it": "Poi cominciò: «Io dico, e non dimando,\nquel che tu vuoli udir, perch' io l'ho visto\nlà 've s'appunta ogne ubi e ogne quando."
+    },
+    {
+      "canto_number": 29,
+      "tercet_number": 5,
+      "color_hex": "#7EC59F",
+      "text_ru": "Не чтобы стать блаженней, - цель такая\nНемыслима, - но чтобы блеск лучей,\nСтруимых ею, молвил \"Есмь\", блистая, -",
+      "text_it": "Non per aver a sé di bene acquisto,\nch'esser non può, ma perché suo splendore\npotesse, risplendendo, dir \"Subsisto\","
+    },
+    {
+      "canto_number": 29,
+      "tercet_number": 6,
+      "color_hex": "#8ACBA8",
+      "text_ru": "Вне времени, в предвечности своей,\nПредвечная любовь сама раскрылась,\nБезгранная, несчетностью любвей.",
+      "text_it": "in sua etternità di tempo fore,\nfuor d'ogne altro comprender, come i piacque,\ns'aperse in nuovi amor l'etterno amore."
+    },
+    {
+      "canto_number": 29,
+      "tercet_number": 7,
+      "color_hex": "#98D3B4",
+      "text_ru": "Она и перед этим находилась\nНе в косном сне, затем что божество\nНи \"до\", ни \"после\" над водой носилось.",
+      "text_it": "Né prima quasi torpente si giacque;\nché né prima né poscia procedette\nlo discorrer di Dio sovra quest' acque."
+    },
+    {
+      "canto_number": 29,
+      "tercet_number": 8,
+      "color_hex": "#A8DBC2",
+      "text_ru": "Врозь и совместно, суть и вещество\nВ мир совершенства свой полет помчали, -\nС тройного лука три стрелы его.",
+      "text_it": "Forma e materia, congiunte e purette,\nusciro ad esser che non avia fallo,\ncome d'arco tricordo tre saette."
+    },
+    {
+      "canto_number": 29,
+      "tercet_number": 9,
+      "color_hex": "#BCE5D2",
+      "text_ru": "Как в янтаре, стекле или кристалле\nСияет луч, причем его приход\nИ заполненье целого совпали,",
+      "text_it": "E come in vetro, in ambra o in cristallo\nraggio resplende sì, che dal venire\na l'esser tutto non è intervallo,"
+    },
+    {
+      "canto_number": 29,
+      "tercet_number": 10,
+      "color_hex": "#D4EEE5",
+      "text_ru": "Так и Творца троеобразный плод\nИзлился, как внезапное сиянье,\nГде никакой неразличим черед.",
+      "text_it": "così 'l triforme effetto del suo sire\nne l'esser suo raggiò insieme tutto\nsanza distinzïone in essordire."
+    },
+    {
+      "canto_number": 29,
+      "tercet_number": 11,
+      "color_hex": "#E8F5EE",
+      "text_ru": "Одновременны были и созданье,\nИ строй существ; над миром быть дано\nВершиной тем, в ком - чистое деянье,",
+      "text_it": "Concreato fu ordine e costrutto\na le sustanze; e quelle furon cima\nnel mondo in che puro atto fu produtto;"
+    },
+    {
+      "canto_number": 29,
+      "tercet_number": 12,
+      "color_hex": "#F5FAFA",
+      "text_ru": "А чистую возможность держит дно;\nВ средине - связью навсегда нетленной\nС возможностью деянье сплетено.",
+      "text_it": "pura potenza tenne la parte ima;\nnel mezzo strinse potenza con atto\ntal vime, che già mai non si divima."
+    },
+    {
+      "canto_number": 29,
+      "tercet_number": 13,
+      "color_hex": "#E5F0E8",
+      "text_ru": "Хоть вам писал Иероним блаженный,\nЧто ангелы за долгий ряд веков\nСотворены до остальной вселенной,",
+      "text_it": "Ieronimo vi scrisse lungo tratto\ndi secoli de li angeli creati\nanzi che l'altro mondo fosse fatto;"
+    },
+    {
+      "canto_number": 29,
+      "tercet_number": 14,
+      "color_hex": "#CDE3D5",
+      "text_ru": "Но истину на множестве листов\nПисцы святого духа возвестили,\nКак ты поймешь, вникая в смысл их слов,",
+      "text_it": "ma questo vero è scritto in molti lati\nda li scrittor de lo Spirito Santo,\ne tu te n'avvedrai se bene agguati;"
+    },
+    {
+      "canto_number": 29,
+      "tercet_number": 15,
+      "color_hex": "#B8D6C2",
+      "text_ru": "И разум видит сам, поскольку в силе,\nЧто движители вряд ли долго так\nБез подлинного совершенства были.",
+      "text_it": "e anche la ragione il vede alquanto,\nche non concederebbe che ' motori\nsanza sua perfezion fosser cotanto."
+    },
+    {
+      "canto_number": 29,
+      "tercet_number": 16,
+      "color_hex": "#A4C9AF",
+      "text_ru": "Теперь ты знаешь, где, когда и как\nСотворены любови их собора,\nИ трех желаний жар в тебе иссяк.",
+      "text_it": "Or sai tu dove e quando questi amori\nfuron creati e come: sì che spenti\nnel tuo disïo già son tre ardori."
+    },
+    {
+      "canto_number": 29,
+      "tercet_number": 17,
+      "color_hex": "#8FB99D",
+      "text_ru": "До двадцати не сосчитать так скоро,\nКак часть бесплотных духов привела\nВ смятенье то, в чем для стихий опора.",
+      "text_it": "Né giugneriesi, numerando, al venti\nsì tosto, come de li angeli parte\nturbò il suggetto d'i vostri alimenti."
+    },
+    {
+      "canto_number": 29,
+      "tercet_number": 18,
+      "color_hex": "#7CAA8E",
+      "text_ru": "Другая часть, оставшись, начала\nТак страстно здесь кружиться, что начатый\nКруговорот прервать бы не могла.",
+      "text_it": "L'altra rimase, e cominciò quest' arte\nche tu discerni, con tanto diletto,\nche mai da circüir non si diparte."
+    },
+    {
+      "canto_number": 29,
+      "tercet_number": 19,
+      "color_hex": "#5E8270",
+      "text_ru": "Причиною паденья был в проклятой\nГордыне тот, кто пред тобой предстал,\nВсем гнетом мира отовсюду сжатый.",
+      "text_it": "Principio del cader fu il maladetto\nsuperbir di colui che tu vedesti\nda tutti i pesi del mondo costretto."
+    },
+    {
+      "canto_number": 29,
+      "tercet_number": 20,
+      "color_hex": "#6D9782",
+      "text_ru": "Сонм, зримый здесь, смиренно признавал\nСебя возникшим в Благости бездонной,\nЧей свет ему познанье даровал.",
+      "text_it": "Quelli che vedi qui furon modesti\na riconoscer sé da la bontate\nche li avea fatti a tanto intender presti:"
+    },
+    {
+      "canto_number": 29,
+      "tercet_number": 21,
+      "color_hex": "#82AA92",
+      "text_ru": "За это, по заслугам вознесенный\nЧрез озаряющую благодать,\nОн преисполнен воли непреклонной.",
+      "text_it": "per che le viste lor furo essaltate\ncon grazia illuminante e con lor merto,\nsi c'hanno ferma e piena volontate;"
+    },
+    {
+      "canto_number": 29,
+      "tercet_number": 22,
+      "color_hex": "#95BCA5",
+      "text_ru": "И ты, не сомневаясь, должен знать,\nЧто благодать нисходит по заслуге\nК любви, раскрытой, чтоб ее принять.",
+      "text_it": "e non voglio che dubbi, ma sia certo,\nche ricever la grazia è meritorio\nsecondo che l'affetto l'è aperto."
+    },
+    {
+      "canto_number": 29,
+      "tercet_number": 23,
+      "color_hex": "#A4C7B2",
+      "text_ru": "Теперь ты сам об этом мудром круге,\nРаз мой урок тобою восприят,\nНемалое домыслишь на досуге.",
+      "text_it": "Omai dintorno a questo consistorio\npuoi contemplare assai, se le parole\nmie son ricolte, sanz' altro aiutorio."
+    },
+    {
+      "canto_number": 29,
+      "tercet_number": 24,
+      "color_hex": "#A8C3A8",
+      "text_ru": "Но так как вам ученые твердят,\nПрироду ангелов изображая,\nЧто те, мол, мыслят, помнят и хотят,",
+      "text_it": "Ma perché 'n terra per le vostre scole\nsi legge che l'angelica natura\nè tal, che 'ntende e si ricorda e vole,"
+    },
+    {
+      "canto_number": 29,
+      "tercet_number": 25,
+      "color_hex": "#ABB89E",
+      "text_ru": "Скажу еще, чтобы тебе прямая\nОткрылась правда, на земле у вас\nДвусмысленным ученьем повитая.",
+      "text_it": "ancor dirò, perché tu veggi pura\nla verità che là giù si confonde,\nequivocando in sì fatta lettura."
+    },
+    {
+      "canto_number": 29,
+      "tercet_number": 26,
+      "color_hex": "#B2C5A3",
+      "text_ru": "Бесплотные, возрадовавшись раз\nЛицу Творца, пред кем без утаенья\nРаскрыто все, с него не сводят глаз;",
+      "text_it": "Queste sustanze, poi che fur gioconde\nde la faccia di Dio, non volser viso\nda essa, da cui nulla si nasconde:"
+    },
+    {
+      "canto_number": 29,
+      "tercet_number": 27,
+      "color_hex": "#C5D9B8",
+      "text_ru": "И так как им не пресекает зренья\nНичто извне, они и не должны\nПрипоминать отъятые виденья.",
+      "text_it": "però non hanno vedere interciso\nda novo obietto, e però non bisogna\nrememorar per concetto diviso;"
+    },
+    {
+      "canto_number": 29,
+      "tercet_number": 28,
+      "color_hex": "#B8C8A5",
+      "text_ru": "У вас же и не спят, а видят сны,\nКто веря, а кто нет - своим рассказам;\nВ одном - и срама больше, и вины.",
+      "text_it": "sì che là giù, non dormendo, si sogna,\ncredendo e non credendo dicer vero;\nma ne l'uno è più colpa e più vergogna."
+    },
+    {
+      "canto_number": 29,
+      "tercet_number": 29,
+      "color_hex": "#A4B692",
+      "text_ru": "Там, на земле, не направляют разум\nОдной тропой: настолько вас влекут\nСтрасть к внешности и жажда жить показом.",
+      "text_it": "Voi non andate giù per un sentiero\nfilosofando: tanto vi trasporta\nl'amor de l'apparenza e 'l suo pensiero!"
+    },
+    {
+      "canto_number": 29,
+      "tercet_number": 30,
+      "color_hex": "#96A586",
+      "text_ru": "Все ж, это с меньшим гневом терпят тут,\nЧем если слово божье суесловью\nПриносят в жертву или вкривь берут.",
+      "text_it": "E ancor questo qua sù si comporta\ncon men disdegno che quando è posposta\nla divina Scrittura o quando è torta."
+    },
+    {
+      "canto_number": 29,
+      "tercet_number": 31,
+      "color_hex": "#8A9479",
+      "text_ru": "Не думают, какою куплен кровью\nЕго посев и как тому, кто чтит\nЕго смиренно, воздают любовью.",
+      "text_it": "Non vi si pensa quanto sangue costa\nseminarla nel mondo e quanto piace\nchi umilmente con essa s'accosta."
+    },
+    {
+      "canto_number": 29,
+      "tercet_number": 32,
+      "color_hex": "#7D8670",
+      "text_ru": "Для славы, каждый что-то норовит\nИзмыслить, чтобы выдумка блеснула\nС амвона, а Евангелье молчит.",
+      "text_it": "Per apparer ciascun s'ingegna e face\nsue invenzioni; e quelle son trascorse\nda' predicanti e 'l Vangelio si tace."
+    },
+    {
+      "canto_number": 29,
+      "tercet_number": 33,
+      "color_hex": "#726E5E",
+      "text_ru": "Иной гласит, что вспять луна шагнула\nВ час мук Христовых и сплошную сень\nМеж солнцем и землею протянула, -",
+      "text_it": "Un dice che la luna si ritorse\nne la passion di Cristo e s'interpuose,\nper che 'l lume del sol giù non si porse;"
+    },
+    {
+      "canto_number": 29,
+      "tercet_number": 34,
+      "color_hex": "#8A7F6D",
+      "text_ru": "И лжет, затем что сам затмился день:\nКак лег на иудеев сумрак чудный,\nТак индов и испанцев скрыла тень.",
+      "text_it": "e mente, ché la luce si nascose\nda sé: però a li Spani e a l'Indi\ncome a' Giudei tale eclissi rispuose."
+    },
+    {
+      "canto_number": 29,
+      "tercet_number": 35,
+      "color_hex": "#7A6E5A",
+      "text_ru": "Нет стольких Лапо во Фьоренце людной\nИ стольких Биндо, сколько басен в год\nИной наскажет пастырь безрассудный;",
+      "text_it": "Non ha Fiorenza tanti Lapi e Bindi\nquante sì fatte favole per anno\nin pergamo si gridan quinci e quindi:"
+    },
+    {
+      "canto_number": 29,
+      "tercet_number": 36,
+      "color_hex": "#6D6050",
+      "text_ru": "И стадо глупых с пастбища бредет,\nНасытясь ветром; ни один не ведал,\nКакой тут вред, но это не спасет.",
+      "text_it": "sì che le pecorelle, che non sanno,\ntornan del pasco pasciute di vento,\ne non le scusa non veder lo danno."
+    },
+    {
+      "canto_number": 29,
+      "tercet_number": 37,
+      "color_hex": "#8E7A5F",
+      "text_ru": "Христос наказа первым верным не дал:\n\"Идите, суесловьте!\", но свое\nУченье правды им он заповедал,",
+      "text_it": "Non disse Cristo al suo primo convento:\n'Andate, e predicate al mondo ciance';\nma diede lor verace fondamento;"
+    },
+    {
+      "canto_number": 29,
+      "tercet_number": 38,
+      "color_hex": "#A68D6C",
+      "text_ru": "И те, провозглашая лишь ее,\nВо имя веры подымали в схватке\nЕвангелье, как щит и как копье.",
+      "text_it": "e quel tanto sonò ne le sue guance,\nsì ch'a pugnar per accender la fede\nde l'Evangelio fero scudo e lance."
+    },
+    {
+      "canto_number": 29,
+      "tercet_number": 39,
+      "color_hex": "#9C8570",
+      "text_ru": "Теперь в церквах лишь на остроты падки\nДа на ужимки; если громок смех,\nТо куколь пыжится, и все в порядке.",
+      "text_it": "Ora si va con motti e con iscede\na predicare, e pur che ben si rida,\ngonfia il cappuccio e più non si richiede."
+    },
+    {
+      "canto_number": 29,
+      "tercet_number": 40,
+      "color_hex": "#857161",
+      "text_ru": "А в нем сидит птенец, тайком от всех,\nТакой, что чернь, увидев, поняла бы,\nКакая власть ей отпускает грех;",
+      "text_it": "Ma tale uccel nel becchetto s'annida,\nche se 'l vulgo il vedesse, vederebbe\nla perdonanza di ch'el si confida:"
+    },
+    {
+      "canto_number": 29,
+      "tercet_number": 41,
+      "color_hex": "#75645A",
+      "text_ru": "Все до того рассудком стали слабы,\nЧто люди верят всякому вранью,\nИ на любой посул толпа пришла бы.",
+      "text_it": "per cui tanta stoltezza in terra crebbe,\nche, sanza prova d'alcun testimonio,\nad ogne promession si correrebbe."
+    },
+    {
+      "canto_number": 29,
+      "tercet_number": 42,
+      "color_hex": "#6A5850",
+      "text_ru": "Так кормит плут Антоньеву свинью\nИ разных прочих, кто грязней намного,\nПлатя деньгу поддельную свою.",
+      "text_it": "Di questo ingrassa il porco sant' Antonio,\ne altri assai che sono ancor più porci,\npagando di moneta sanza conio."
+    },
+    {
+      "canto_number": 29,
+      "tercet_number": 43,
+      "color_hex": "#7A9884",
+      "text_ru": "Но это все - окольная дорога,\nИ нам пора на прежний путь опять,\nСо временем сообразуясь строго.",
+      "text_it": "Ma perché siam digressi assai, ritorci\nli occhi oramai verso la dritta strada,\nsì che la via col tempo si raccorci."
+    },
+    {
+      "canto_number": 29,
+      "tercet_number": 44,
+      "color_hex": "#84B096",
+      "text_ru": "Так далеко восходит эта рать\nСвоим числом, что смертной речи сила\nИ смертный ум не могут не отстать.",
+      "text_it": "Questa natura sì oltre s'ingrada\nin numero, che mai non fu loquela\nné concetto mortal che tanto vada;"
+    },
+    {
+      "canto_number": 29,
+      "tercet_number": 45,
+      "color_hex": "#90BEA8",
+      "text_ru": "И в самом откровенье Даниила\nЧисло не обозначено точней:\nВ его тьмах тем оно себя укрыло.",
+      "text_it": "e se tu guardi quel che si revela\nper Danïel, vedrai che 'n sue migliaia\ndeterminato numero si cela."
+    },
+    {
+      "canto_number": 29,
+      "tercet_number": 46,
+      "color_hex": "#9FCDB8",
+      "text_ru": "Первоначальный Свет, разлитый в ней,\nВоспринят ею столь же разнородно,\nСколь много сочетанных с ним огней.",
+      "text_it": "La prima luce, che tutta la raia,\nper tanti modi in essa si recepe,\nquanti son li splendori a chi s'appaia."
+    },
+    {
+      "canto_number": 29,
+      "tercet_number": 47,
+      "color_hex": "#AEDAC5",
+      "text_ru": "А так как от познанья производно\nВлечение, то искони времен\nЛюбовь горит и тлеет в ней несходно.",
+      "text_it": "Onde, però che a l'atto che concepe\nsegue l'affetto, d'amar la dolcezza\ndiversamente in essa ferve e tepe."
+    },
+    {
+      "canto_number": 29,
+      "tercet_number": 48,
+      "color_hex": "#C4E7D7",
+      "text_ru": "Суди же, сколь пространно вознесен\nПредвечный, если столькие зерцала\nСебе он создал, где дробится он,\nЕдиный сам в себе, как изначала\".",
+      "text_it": "Vedi l'eccelso omai e la larghezza\nde l'etterno valor, poscia che tanti\nspeculi fatti s'ha in che si spezza,\nuno manendo in sé come davanti»."
+    }
+  ]
+}

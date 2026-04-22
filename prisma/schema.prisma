@@ -1,0 +1,73 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Work {
+  id           String  @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  title        String
+  baseColorHex String? @map("base_color_hex") @db.Char(7)
+  parts        Part[]
+
+  @@map("works")
+}
+
+model Part {
+  id         String  @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  workId     String? @map("work_id") @db.Uuid
+  name       String
+  orderIndex Int     @map("order_index")
+  colorHex   String? @map("color_hex") @db.Char(7)
+  work       Work?   @relation(fields: [workId], references: [id])
+  cantos     Canto[]
+
+  @@map("parts")
+}
+
+model Canto {
+  id          String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  partId      String?   @map("part_id") @db.Uuid
+  cantoNumber Int       @map("canto_number")
+  titleRu     String?   @map("title_ru")
+  titleIt     String?   @map("title_it")
+  titleEn     String?   @map("title_en")
+  titleUk     String?   @map("title_uk")
+  colorHex    String?   @map("color_hex") @db.Char(7)
+  part        Part?     @relation(fields: [partId], references: [id])
+  terzinas    Terzina[]
+
+  @@map("cantos")
+}
+
+model Terzina {
+  id            String           @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  cantoId       String?          @map("canto_id") @db.Uuid
+  terzinaNumber Int              @map("terzina_number")
+  colorHex      String?          @map("color_hex") @db.Char(7)
+  textRu        String?          @map("text_ru")
+  textIt        String?          @map("text_it")
+  textEn        String?          @map("text_en")
+  textUk        String?          @map("text_uk")
+  textFr        String?          @map("text_fr")
+  canto         Canto?           @relation(fields: [cantoId], references: [id])
+  aiCommentaries AiCommentary[]
+
+  @@map("terzinas")
+}
+
+model AiCommentary {
+  id         String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  terzinaId  String   @map("terzina_id") @db.Uuid
+  language   String   @db.VarChar(2)
+  commentary String
+  audioUrl   String?  @map("audio_url")
+  createdAt  DateTime @default(now()) @map("created_at") @db.Timestamptz()
+  terzina    Terzina  @relation(fields: [terzinaId], references: [id])
+
+  @@unique([terzinaId, language])
+  @@map("ai_commentaries")
+}

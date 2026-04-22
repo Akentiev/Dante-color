@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(docker ps:*)",
+      "Bash(docker exec:*)",
+      "Bash(netstat:*)",
+      "Bash(findstr:*)",
+      "Bash(node:*)",
+      "Bash(curl:*)",
+      "Bash(taskkill:*)",
+      "Bash(ping:*)",
+      "Bash(git add:*)",
+      "Bash(flatpak-spawn --host npm:*)",
+      "Bash(flatpak-spawn --host docker exec:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "WebFetch(domain:dante-color.vercel.app)",
+      "Bash(npx tsc:*)",
+      "Bash(python3:*)",
+      "Bash(psql \"postgresql://postgres.wfcsyvptybwnmltqshdl:jm_Sc\\)w\\)!tK6@.j@aws-1-eu-west-1.pooler.supabase.com:5432/postgres?sslmode=require\" -c \"SELECT COUNT\\(*\\) as total_terzinas FROM terzinas;\")",
+      "Bash(xargs:*)",
+      "Bash(grep:*)",
+      "Bash(for f in \"/home/andromeda/Web Projects/Dante-color/db/seed_\"*.sql)",
+      "Bash(do grep -c \"^-- Tercet\" \"$f\")",
+      "Bash(done)",
+      "Read(//home/andromeda/Web Projects/Dante-color/**)",
+      "Bash(flatpak-spawn --host npx:*)",
+      "Bash(flatpak-spawn --host which:*)",
+      "Bash(flatpak-spawn --host node:*)"
+    ]
+  }
+}
