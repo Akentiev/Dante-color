@@ -2,14 +2,14 @@ import React from 'react';
 import { useCurrentFrame, interpolate, useVideoConfig, Easing } from 'remotion';
 
 // ── Timing ────────────────────────────────────────────────────────────────────
-const PATH_END      = 215;  // all orbs arrive simultaneously
-const BREATHE_START = 220;
+const PATH_END      = 72;   // all orbs arrive simultaneously
+const BREATHE_START = 73;
 
 // ── Geometry (base values, will be scaled by viewport width) ──────────────────
 const ORB_CORE_SIZE   = 120;
 const ORB_GLOW_RADIUS = 110;
 const TAIL_COUNT      = 7;
-const TAIL_FRAME_STEP = 3;
+const TAIL_FRAME_STEP = 1;
 
 // Quadratic bezier: P0 → P1 (arc control) → P2 (final)
 function qbez(p0: number, p1: number, p2: number, t: number) {
@@ -28,19 +28,19 @@ interface OrbConfig {
 const ORBS: OrbConfig[] = [
     {
         color: '#E01400', glowColor: 'rgba(224,20,0,',
-        birthFrame: 28,
+        birthFrame: 9,
         viaX: -220, viaY:  230,
         finalX: -138,
     },
     {
         color: '#C69722', glowColor: 'rgba(198,151,34,',
-        birthFrame: 42,
+        birthFrame: 14,
         viaX:   80, viaY: -310,
         finalX: 0,
     },
     {
         color: '#FFD600', glowColor: 'rgba(255,214,0,',
-        birthFrame: 56,
+        birthFrame: 19,
         viaX:  220, viaY:  230,
         finalX: 138,
     },
@@ -79,27 +79,27 @@ const SingleOrb: React.FC<SingleOrbProps> = ({ cfg, frame, fps: _fps }) => {
     const y = raw.y * s;
 
     // Opacity: snap on at birth
-    const opacity = interpolate(frame, [birthFrame, birthFrame + 10], [0, 1], {
+    const opacity = interpolate(frame, [birthFrame, birthFrame + 3], [0, 1], {
         extrapolateLeft: 'clamp', extrapolateRight: 'clamp',
     });
 
-    // Birth punch: quick scale burst 0 → 1.5 → 1 over 20 frames
+    // Birth punch: quick scale burst 0 → 1.5 → 1 over 6 frames
     const birthPunch = interpolate(
         frame,
-        [birthFrame, birthFrame + 6, birthFrame + 18],
+        [birthFrame, birthFrame + 2, birthFrame + 6],
         [0, 1.4, 1],
         { extrapolateLeft: 'clamp', extrapolateRight: 'clamp' }
     );
 
     // Breathing after settle
     const breathe = frame >= BREATHE_START
-        ? 1 + Math.sin(((frame - BREATHE_START) / 120) * 2 * Math.PI) * 0.025
+        ? 1 + Math.sin(((frame - BREATHE_START) / 40) * 2 * Math.PI) * 0.025
         : 1;
 
-    const scale = frame < birthFrame + 18 ? birthPunch : breathe;
+    const scale = frame < birthFrame + 6 ? birthPunch : breathe;
 
     // Comet tails during arc
-    const inMotion = frame > birthFrame + 5 && frame < PATH_END - 5;
+    const inMotion = frame > birthFrame + 2 && frame < PATH_END - 2;
     const tails: Array<{ x: number; y: number; alpha: number; blur: number }> = [];
     if (inMotion) {
         for (let i = 1; i <= TAIL_COUNT; i++) {

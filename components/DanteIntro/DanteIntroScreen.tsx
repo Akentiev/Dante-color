@@ -11,8 +11,8 @@ interface Props {
 
 const FPS = 30;
 const DURATION = 1800;            // 60s — holds final frame indefinitely
-const ANIMATION_END_FRAME = 270;  // all animations complete by this frame
-const BUTTONS_APPEAR_FRAME = 252; // UI fades in after DANTE COLOR title reveals
+const ANIMATION_END_FRAME = 102;  // animation complete by this frame (~3.4s)
+const BUTTONS_APPEAR_FRAME = 94;  // UI fades in after attribution line (frame 91)
 const MAX_PLAYER_WIDTH = 1200;
 
 const LANGS: { code: Language; label: string }[] = [

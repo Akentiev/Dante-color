@@ -14,8 +14,8 @@ interface Props {
 export const DanteIntroComposition: React.FC<Props> = ({ language: _language }) => {
     const frame = useCurrentFrame();
 
-    // Fade in from pure black over first 10 frames
-    const initialFade = interpolate(frame, [0, 10], [0, 1], {
+    // Fade in from pure black over first 3 frames
+    const initialFade = interpolate(frame, [0, 3], [0, 1], {
         extrapolateLeft: 'clamp',
         extrapolateRight: 'clamp',
     });

@@ -8,13 +8,23 @@ export const DanteColorTitle: React.FC = () => {
     // Scale factor for responsive sizing
     const s = Math.max(0.45, Math.min(1.2, width / 1000));
 
-    // Reveal after orbs settle (frame 215) — wipe left→right
-    const revealProgress = interpolate(frame, [220, 252], [0, 1], {
+    // Reveal after orbs settle (frame 72) — wipe left→right
+    const revealProgress = interpolate(frame, [73, 84], [0, 1], {
         extrapolateLeft: 'clamp',
         extrapolateRight: 'clamp',
     });
 
-    const translateY = interpolate(frame, [220, 252], [8, 0], {
+    const translateY = interpolate(frame, [73, 84], [8, 0], {
+        extrapolateLeft: 'clamp',
+        extrapolateRight: 'clamp',
+    });
+
+    // Attribution line: fades in right after logo wipe completes
+    const authorOpacity = interpolate(frame, [84, 91], [0, 0.5], {
+        extrapolateLeft: 'clamp',
+        extrapolateRight: 'clamp',
+    });
+    const authorY = interpolate(frame, [84, 91], [5, 0], {
         extrapolateLeft: 'clamp',
         extrapolateRight: 'clamp',
     });
@@ -50,6 +60,28 @@ export const DanteColorTitle: React.FC = () => {
                     textAlign: 'center',
                 }}>
                     Dante Color
+                </span>
+            </div>
+
+            {/* Attribution: appears after logo wipe, before UI buttons */}
+            <div style={{
+                opacity: authorOpacity,
+                transform: `translateY(${authorY}px)`,
+                marginTop: 18 * s,
+                textAlign: 'center',
+                whiteSpace: 'nowrap',
+            }}>
+                <span style={{
+                    fontFamily: '"Syne", sans-serif',
+                    fontWeight: 300,
+                    fontSize: 10 * s,
+                    letterSpacing: '0.45em',
+                    paddingLeft: '0.45em',
+                    color: 'rgba(255,255,255,0.9)',
+                    textTransform: 'uppercase',
+                    userSelect: 'none',
+                }}>
+                    Divina Commedia&nbsp;&nbsp;|&nbsp;&nbsp;Dante Alighieri
                 </span>
             </div>
         </div>
