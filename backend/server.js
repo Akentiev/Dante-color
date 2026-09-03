@@ -471,7 +471,7 @@ What state does this place and color speak to? What might a person standing here
         if (!response.ok) {
             console.warn('Primary model failed, trying fallback. Status:', response.status);
             response = await fetch('https://openrouter.ai/api/v1/chat/completions', {
-                method: 'POST', headers: orHeaders, body: makeBody('google/gemini-2.0-flash-lite-001'),
+                method: 'POST', headers: orHeaders, body: makeBody('google/gemini-2.5-flash'),
             });
         }
 
@@ -779,7 +779,7 @@ What state does this place and color speak to? What might a person standing here
             });
             if (!orRes.ok) {
                 orRes = await fetch('https://openrouter.ai/api/v1/chat/completions', {
-                    method: 'POST', headers: orHeaders, body: makeBody('google/gemini-2.0-flash-lite-001'),
+                    method: 'POST', headers: orHeaders, body: makeBody('google/gemini-2.5-flash'),
                 });
             }
             if (!orRes.ok) {
@@ -1140,7 +1140,7 @@ What state does this place and color speak to? What might a person standing here
         });
         if (!response.ok) {
             response = await fetch('https://openrouter.ai/api/v1/chat/completions', {
-                method: 'POST', headers: orHeaders, body: makeBody('google/gemini-2.0-flash-lite-001'),
+                method: 'POST', headers: orHeaders, body: makeBody('google/gemini-2.5-flash'),
             });
         }
         if (!response.ok) return res.status(502).json({ error: 'AI service unavailable' });
