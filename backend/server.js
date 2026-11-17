@@ -17,6 +17,46 @@ fs.mkdirSync(AUDIO_DIR, { recursive: true });
 const prisma = new PrismaClient();
 const app = express();
 
+// ── Gemini (direct Google AI Studio API) ────────────────────────────────────
+// Primary: simplest conversational Gemini model (flash-lite alias, always current).
+// Fallback: full flash alias if the lite model is unavailable.
+async function callGemini(systemPrompt, userMessage) {
+    const apiKey = (process.env.GEMINI_API_KEY || '').trim();
+    if (!apiKey) {
+        const err = new Error('GEMINI_API_KEY is not configured');
+        err.code = 'NO_API_KEY';
+        throw err;
+    }
+
+    const body = JSON.stringify({
+        systemInstruction: { parts: [{ text: systemPrompt }] },
+        contents: [{ role: 'user', parts: [{ text: userMessage }] }],
+        generationConfig: { maxOutputTokens: 400, temperature: 0.85 },
+    });
+
+    const callModel = (model) => fetch(
+        `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`,
+        { method: 'POST', headers: { 'Content-Type': 'application/json' }, body },
+    );
+
+    let response = await callModel('gemini-flash-lite-latest');
+    if (!response.ok) {
+        console.warn('Primary Gemini model failed, trying fallback. Status:', response.status);
+        response = await callModel('gemini-flash-latest');
+    }
+    if (!response.ok) {
+        const errText = await response.text();
+        console.error('Gemini error:', response.status, errText);
+        const err = new Error('Gemini service unavailable');
+        err.code = 'UPSTREAM_ERROR';
+        throw err;
+    }
+
+    const data = await response.json();
+    const text = data.candidates?.[0]?.content?.parts?.map(p => p.text || '').join('') || '';
+    return text.replace(/#[0-9a-fA-F]{6}\b/g, '').replace(/\s{2,}/g, ' ').trim();
+}
+
 // Trust Nginx reverse proxy (required for express-rate-limit IP detection)
 app.set('trust proxy', 1);
 
@@ -417,11 +457,6 @@ app.post('/api/ai/commentary', aiLimiter, async (req, res) => {
         // Non-fatal — fall through to generation
     }
 
-    const apiKey = (process.env.OPENROUTER_API_KEY || '').trim();
-    if (!apiKey) {
-        return res.status(500).json({ error: 'OPENROUTER_API_KEY is not configured' });
-    }
-
     const langNames = { it: 'Italian', fr: 'French', ru: 'Russian', en: 'English', uk: 'Ukrainian' };
     const langName = langNames[language] || 'English';
 
@@ -447,44 +482,8 @@ Tercet text (${language}):
 
 What state does this place and color speak to? What might a person standing here recognize in themselves?`;
 
-    const orHeaders = {
-        'Authorization': `Bearer ${apiKey}`,
-        'Content-Type': 'application/json',
-        'HTTP-Referer': 'https://dante-color.com',
-        'X-Title': 'Dante Color',
-    };
-    const makeBody = (model) => JSON.stringify({
-        model,
-        messages: [
-            { role: 'system', content: systemPrompt },
-            { role: 'user', content: userMessage },
-        ],
-        max_tokens: 400,
-        temperature: 0.85,
-    });
-
     try {
-        let response = await fetch('https://openrouter.ai/api/v1/chat/completions', {
-            method: 'POST', headers: orHeaders, body: makeBody('google/gemini-2.5-flash-lite'),
-        });
-
-        if (!response.ok) {
-            console.warn('Primary model failed, trying fallback. Status:', response.status);
-            response = await fetch('https://openrouter.ai/api/v1/chat/completions', {
-                method: 'POST', headers: orHeaders, body: makeBody('google/gemini-2.5-flash'),
-            });
-        }
-
-        if (!response.ok) {
-            const errText = await response.text();
-            console.error('OpenRouter error:', response.status, errText);
-            return res.status(502).json({ error: 'AI service unavailable' });
-        }
-
-        const data = await response.json();
-        // Strip any stray hex codes the model might have included despite instructions
-        const commentary = (data.choices?.[0]?.message?.content || '')
-            .replace(/#[0-9a-fA-F]{6}\b/g, '').replace(/\s{2,}/g, ' ').trim();
+        const commentary = await callGemini(systemPrompt, userMessage);
 
         // Store in L1 immediately
         aiCommentaryCache.set(cacheKey, commentary);
@@ -516,6 +515,8 @@ What state does this place and color speak to? What might a person standing here
 
     } catch (err) {
         console.error('Error in /api/ai/commentary:', err.message, err.stack);
+        if (err.code === 'UPSTREAM_ERROR') return res.status(502).json({ error: 'AI service unavailable' });
+        if (err.code === 'NO_API_KEY') return res.status(500).json({ error: 'GEMINI_API_KEY is not configured' });
         return res.status(500).json({ error: 'Internal server error' });
     }
 });
@@ -656,7 +657,7 @@ function prepareTextForTTS(text, language) {
 // Flow:
 //   1. If `text` provided by client → use it directly (no DB generation)
 //   2. Else check DB for existing commentary text
-//   3. Else generate text via OpenRouter
+//   3. Else generate text via Gemini
 //   → voice via ElevenLabs v3 → save file → save URL to DB → return URL
 app.post('/api/audio/reflection', aiLimiter, audioLimiter, async (req, res) => {
     const { cantoId, tercetNumber, language, text: clientText } = req.body;
@@ -727,11 +728,6 @@ app.post('/api/audio/reflection', aiLimiter, audioLimiter, async (req, res) => {
         }
 
         if (!commentaryText) {
-            const openrouterKey = (process.env.OPENROUTER_API_KEY || '').trim();
-            if (!openrouterKey) {
-                return res.status(500).json({ error: 'OPENROUTER_API_KEY is not configured' });
-            }
-
             const langNames = { it: 'Italian', fr: 'French', ru: 'Russian', en: 'English', uk: 'Ukrainian' };
             const partLocalName = {
                 Inferno:    { it: 'Inferno',   fr: 'Enfer',      ru: 'Ад',           en: 'Inferno',    uk: 'Пекло'       },
@@ -758,36 +754,7 @@ Tercet text (${language}):
 
 What state does this place and color speak to? What might a person standing here recognize in themselves?`;
 
-            const orHeaders = {
-                'Authorization': `Bearer ${openrouterKey}`,
-                'Content-Type': 'application/json',
-                'HTTP-Referer': 'https://dante-color.com',
-                'X-Title': 'Dante Color',
-            };
-            const makeBody = (model) => JSON.stringify({
-                model,
-                messages: [
-                    { role: 'system', content: systemPrompt },
-                    { role: 'user', content: userMessage },
-                ],
-                max_tokens: 400,
-                temperature: 0.85,
-            });
-
-            let orRes = await fetch('https://openrouter.ai/api/v1/chat/completions', {
-                method: 'POST', headers: orHeaders, body: makeBody('google/gemini-2.5-flash-lite'),
-            });
-            if (!orRes.ok) {
-                orRes = await fetch('https://openrouter.ai/api/v1/chat/completions', {
-                    method: 'POST', headers: orHeaders, body: makeBody('google/gemini-2.5-flash'),
-                });
-            }
-            if (!orRes.ok) {
-                return res.status(502).json({ error: 'AI service unavailable' });
-            }
-            const orData = await orRes.json();
-            commentaryText = (orData.choices?.[0]?.message?.content || '')
-                .replace(/#[0-9a-fA-F]{6}\b/g, '').replace(/\s{2,}/g, ' ').trim();
+            commentaryText = await callGemini(systemPrompt, userMessage);
 
             // Save commentary to DB
             await prisma.aiCommentary.upsert({
@@ -847,6 +814,8 @@ What state does this place and color speak to? What might a person standing here
 
     } catch (err) {
         console.error('Error in /api/audio/reflection:', err.message, err.stack);
+        if (err.code === 'UPSTREAM_ERROR') return res.status(502).json({ error: 'AI service unavailable' });
+        if (err.code === 'NO_API_KEY') return res.status(500).json({ error: 'GEMINI_API_KEY is not configured' });
         return res.status(500).json({ error: 'Internal server error' });
     }
 });
@@ -1079,9 +1048,6 @@ app.post('/api/admin/regenerate/commentary/:terzinaId/:lang', adminAuth, async (
     const validLangs = ['it', 'fr', 'ru', 'en', 'uk'];
     if (!validLangs.includes(lang)) return res.status(400).json({ error: 'Invalid language' });
 
-    const apiKey = (process.env.OPENROUTER_API_KEY || '').trim();
-    if (!apiKey) return res.status(500).json({ error: 'OPENROUTER_API_KEY not configured' });
-
     try {
         const terzina = await prisma.terzina.findUnique({
             where: { id: terzinaId },
@@ -1122,32 +1088,7 @@ Tercet text (${lang}):
 
 What state does this place and color speak to? What might a person standing here recognize in themselves?`;
 
-        const orHeaders = {
-            'Authorization': `Bearer ${apiKey}`,
-            'Content-Type': 'application/json',
-            'HTTP-Referer': 'https://dante-color.com',
-            'X-Title': 'Dante Color',
-        };
-        const makeBody = (model) => JSON.stringify({
-            model,
-            messages: [{ role: 'system', content: systemPrompt }, { role: 'user', content: userMessage }],
-            max_tokens: 400,
-            temperature: 0.85,
-        });
-
-        let response = await fetch('https://openrouter.ai/api/v1/chat/completions', {
-            method: 'POST', headers: orHeaders, body: makeBody('google/gemini-2.5-flash-lite'),
-        });
-        if (!response.ok) {
-            response = await fetch('https://openrouter.ai/api/v1/chat/completions', {
-                method: 'POST', headers: orHeaders, body: makeBody('google/gemini-2.5-flash'),
-            });
-        }
-        if (!response.ok) return res.status(502).json({ error: 'AI service unavailable' });
-
-        const data = await response.json();
-        const commentary = (data.choices?.[0]?.message?.content || '')
-            .replace(/#[0-9a-fA-F]{6}\b/g, '').replace(/\s{2,}/g, ' ').trim();
+        const commentary = await callGemini(systemPrompt, userMessage);
 
         // Save to DB (upsert — keep audio_url intact)
         await prisma.aiCommentary.upsert({
@@ -1160,6 +1101,8 @@ What state does this place and color speak to? What might a person standing here
         res.json({ commentary });
     } catch (err) {
         console.error('Error in /api/admin/regenerate/commentary:', err.message);
+        if (err.code === 'UPSTREAM_ERROR') return res.status(502).json({ error: 'AI service unavailable' });
+        if (err.code === 'NO_API_KEY') return res.status(500).json({ error: 'GEMINI_API_KEY is not configured' });
         res.status(500).json({ error: 'Internal server error' });
     }
 });

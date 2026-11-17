@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useMemo, useCallback } from 'react';
+import React, { useEffect, useRef, useState, useMemo, useCallback } from 'react';
 import { apiCache } from '../apiCache';
 import { audioEngine } from '../audioEngine';
 import { colorToSound, type Canticle } from '../colorToSound';
@@ -57,13 +57,15 @@ const ColorMapScreen: React.FC<ColorMapScreenProps> = ({ onNext, language, onTer
     const [terzinas, setTerzinas] = useState<TerzinaData[]>([]);
     const [loading, setLoading] = useState(true);
     const [audioReady, setAudioReady] = useState(false);
+    const audioInitRef = useRef(false);
     const [coveredKeys, setCoveredKeys] = useState<Set<string>>(new Set());
 
     const initAudio = useCallback(async () => {
-        if (audioReady) return;
+        if (audioInitRef.current) return;
+        audioInitRef.current = true;
         await audioEngine.init();
         setAudioReady(true);
-    }, [audioReady]);
+    }, []);
 
     const handleHover = useCallback((hex: string, canticle: Canticle) => {
         if (!audioEngine.isReady()) return;
@@ -129,7 +131,7 @@ const ColorMapScreen: React.FC<ColorMapScreenProps> = ({ onNext, language, onTer
     }
 
     return (
-        <div className="h-screen w-screen bg-void overflow-y-auto pb-20 relative" onClick={initAudio}>
+        <div className="h-screen w-screen bg-void overflow-y-auto pb-20 relative" onPointerEnter={initAudio} onClick={initAudio}>
             {/* Ambient Background */}
             <div className="fixed inset-0 pointer-events-none">
                 <div className="absolute top-[-10%] left-[-10%] w-[500px] h-[500px] bg-inferno/5 rounded-full blur-[120px] animate-pulse-slow"></div>

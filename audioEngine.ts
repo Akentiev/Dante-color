@@ -84,9 +84,9 @@ class AudioEngine {
     private activeNotes: Partial<Record<Canticle, string>> = {};
 
     async init() {
-        if (this.ready) return;
-
+        // Always resume AudioContext — Safari suspends it after navigation
         await Tone.start();
+        if (this.ready) return;
 
         // Signal chain: synth → reverb → master volume → limiter → output
         this.limiter = new Tone.Limiter(-3).toDestination();
